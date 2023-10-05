@@ -5,11 +5,11 @@ $color-surface-ground-hover: #e9ecef;
 $color-surface-border: #dee2e6;
 
 $color-text-secondary: #6c757d;
-$color-text-sidebar: rgba(255,255,255,.8);
+$color-text-sidebar: rgba(255, 255, 255, 0.8);
 $color-text: #495057;
 
 $color-sidebar-bg: #343a40;
-$color-sidebar-divider: rgba(255,255,255,.2);
+$color-sidebar-divider: rgba(255, 255, 255, 0.2);
 
 // other variables:
 $border-radius: 4px;
@@ -17,3 +17,12 @@ $transition-duration: 0.2s;
 
 $z-index-topbar: 999;
 $z-index-sidebar: 1000;
+
+$box-shadow:
+  0 2px 1px -1px #0003,
+  0 1px 1px #00000024,
+  0 1px 3px #0000001f;
+$box-shadow-45deg:
+  1px 1px 1px -1px rgba(0, 0, 0, 0.2),
+  1px 1px 1px rgba(0, 0, 0, 0.1411764706),
+  1px 1px 3px rgba(0, 0, 0, 0.1215686275);

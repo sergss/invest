@@ -1,0 +1,32 @@
+$mobileWidth: 576px;
+$desktopWidth: 1200px;
+
+@mixin mediaMobile {
+  @media only screen and (max-width: $mobileWidth) {
+    @content;
+  }
+}
+
+@mixin mediaTablet {
+  @media only screen and (min-width: $mobileWidth + 1) and (max-width: $desktopWidth - 1) {
+    @content;
+  }
+}
+
+@mixin mediaDesktop {
+  @media only screen and (min-width: $desktopWidth) {
+    @content;
+  }
+}
+
+@mixin mediaNotMobile {
+  @media only screen and (min-width: $mobileWidth + 1) {
+    @content;
+  }
+}
+
+@mixin mediaNotDesktop {
+  @media only screen and (max-width: $desktopWidth - 1) {
+    @content;
+  }
+}

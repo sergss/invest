@@ -1,0 +1,62 @@
+{
+  "labels": {
+    "date": "Date",
+    "price": "Price, $",
+    "investedTotal": "Invested total, $",
+    "stocksTotal": "Stocks total, num.",
+    "portfolioTotal": "Portfolio total, $",
+    "percentTotalAbsolute": "Total percent earned, $",
+    "percentTotal": "Total percent earned, %",
+    "totalInflation": "Total inflation, %",
+    "totalMinusInflation": "Portfolio - inflation, $"
+  },
+  "table": {
+    "title": "Table view"
+  },
+  "form": {
+    "title": {
+      "stocks": "Investment in stocks"
+    },
+    "label": {
+      "startDate": "Select start date",
+      "endDate": "Select end date",
+      "m": "m.",
+      "y": "y.",
+      "stocks": {
+        "stocksList": "Stocks list",
+        "stockSymbol": "Select a stock",
+        "symbolListOptions": {
+          "custom": "Custom",
+          "top500": "Top 500 companies",
+          "all": "All companies"
+        }
+      },
+      "amount": "Enter amount",
+      "untilNow": "Until now",
+      "selectDate": "Select date",
+      "monthQuantity": "Month quantity",
+      "yearsQuantity": "Years quantity",
+      "inflationMatter": "Account for USD inflation",
+      "inflationValue": "Average annual inflation"
+    }
+  },
+  "tooltip": {
+    "startDate": {
+      "stocks": "Investment start date"
+    },
+    "endDate": {
+      "stocks": "Investment end date"
+    },
+    "stocksList": "Stocks lists for your choice",
+    "stockSymbol": "A stock of a company you would invest in",
+    "amount": "Monthly replenishment amount",
+    "inflationMatter": "Considering inflation can yield a more accurate net income",
+    "inflationValue": "Please specify the approximate average percentage"
+  },
+  "button": {
+    "submit": "Submit"
+  },
+  "titles": {
+    "stocks": "Stocks"
+  }
+}
