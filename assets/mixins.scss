@@ -1,32 +1,77 @@
-$mobileWidth: 576px;
-$desktopWidth: 1200px;
+$sm: 576px; // Breakpoint of screens such as phones.
+$md: 768px; // Breakpoint of screens such as tablets.
+$lg: 992px; // Breakpoint of screens such as notebook monitors.
+$xl: 1200px; // Breakpoint of smaller screens such as desktop monitors.
+// 1200px + large desktop
 
 @mixin mediaMobile {
-  @media only screen and (max-width: $mobileWidth) {
-    @content;
-  }
-}
-
-@mixin mediaTablet {
-  @media only screen and (min-width: $mobileWidth + 1) and (max-width: $desktopWidth - 1) {
-    @content;
-  }
-}
-
-@mixin mediaDesktop {
-  @media only screen and (min-width: $desktopWidth) {
+  @media only screen and (max-width: $sm) {
     @content;
   }
 }
 
 @mixin mediaNotMobile {
-  @media only screen and (min-width: $mobileWidth + 1) {
+  @media only screen and (min-width: $sm + 1) {
     @content;
   }
 }
 
-@mixin mediaNotDesktop {
-  @media only screen and (max-width: $desktopWidth - 1) {
+@mixin mediaTablet {
+  @media only screen and (min-width: $sm + 1) and (max-width: $md) {
     @content;
+  }
+}
+
+@mixin mediaNotebook {
+  @media only screen and (min-width: $md + 1) and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin mediaDesktop {
+  @media only screen and (min-width: $lg + 1) and (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin mediaLargeDesktop {
+  @media only screen and (min-width: $xl + 1) {
+    @content;
+  }
+}
+
+@mixin mediaAnyDesktop {
+  @media only screen and (min-width: $lg + 1) {
+    @content;
+  }
+}
+
+@mixin mediaNotAnyDesktop {
+  @media only screen and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin mediaNotLargeDesktop {
+  @media only screen and (max-width: $xl) {
+    @content;
+  }
+}
+
+.hide-not-any-desktop {
+  @include mediaNotAnyDesktop {
+    display: none !important;
+  }
+}
+
+.hide-any-desktop {
+  @include mediaAnyDesktop {
+    display: none !important;
+  }
+}
+
+.hide-not-mobile {
+  @include mediaNotMobile {
+    display: none !important;
   }
 }

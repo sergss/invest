@@ -58,5 +58,14 @@
   },
   "titles": {
     "stocks": "Stocks"
+  },
+  "texts": {
+    "stocksInfoText1": "Want to assess the potential of long-term investing with small regular amounts?",
+    "stocksInfoText2": "Fill out the form to continue",
+    "stocksInfoText3": "Investment term:",
+    "stocksInfoText4": "Company [stock]:",
+    "stocksInfoText5": "Amount invested:",
+    "stocksInfoText6": "Final portfolio:",
+    "stocksInfoText7": "Including interest:"
   }
 }
