@@ -32,6 +32,8 @@
         }
       },
       "amount": "Enter amount",
+      "addInitialAmount": "Add initial amount",
+      "amountInitial": "Enter initial amount",
       "untilNow": "Until now",
       "selectDate": "Select date",
       "monthQuantity": "Month quantity",
@@ -50,6 +52,8 @@
     "stocksList": "Stocks lists for your choice",
     "stockSymbol": "A stock of a company you would invest in",
     "amount": "Monthly replenishment amount",
+    "addInitialAmount": "Calculate, including the initial deposit",
+    "amountInitial": "The amount with which you are ready to start investing",
     "inflationMatter": "Considering inflation can yield a more accurate net income",
     "inflationValue": "Please specify the approximate average percentage"
   },
