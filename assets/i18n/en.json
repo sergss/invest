@@ -2,6 +2,7 @@
   "labels": {
     "date": "Date",
     "price": "Price, $",
+    "investmentAmount": "Investment amount, $",
     "investedTotal": "Invested total, $",
     "stocksTotal": "Stocks total, num.",
     "portfolioTotal": "Portfolio total, $",
@@ -10,13 +11,7 @@
     "totalInflation": "Total inflation, %",
     "totalMinusInflation": "Portfolio - inflation, $"
   },
-  "table": {
-    "title": "Table view"
-  },
   "form": {
-    "title": {
-      "stocks": "Investment in stocks"
-    },
     "label": {
       "startDate": "Select start date",
       "endDate": "Select end date",
@@ -54,8 +49,8 @@
     "amount": "Monthly replenishment amount",
     "addInitialAmount": "Calculate, including the initial deposit",
     "amountInitial": "The amount with which you are ready to start investing",
-    "inflationMatter": "Considering inflation can yield a more accurate net income",
-    "inflationValue": "Please specify the approximate average percentage"
+    "inflationMatter": "Adjust the size of monthly investments for inflation",
+    "inflationValue": "For example, with an annual inflation rate of 4%, $100 today is roughly equivalent to $20 twenty years ago"
   },
   "button": {
     "submit": "Submit"
