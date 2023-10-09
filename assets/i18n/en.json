@@ -1,6 +1,6 @@
 {
   "labels": {
-    "date": "Date",
+    "date": "Date: m/d/y",
     "price": "Price, $",
     "investmentAmount": "Investment amount, $",
     "investedTotal": "Invested total, $",
@@ -50,7 +50,7 @@
     "addInitialAmount": "Calculate, including the initial deposit",
     "amountInitial": "The amount with which you are ready to start investing",
     "inflationMatter": "Adjust the size of monthly investments for inflation",
-    "inflationValue": "For example, with an annual inflation rate of 4%, $100 today is roughly equivalent to $20 twenty years ago"
+    "inflationValue": "For example, with an annual inflation rate of 4%, $100 today is roughly equivalent to $45 twenty years ago"
   },
   "button": {
     "submit": "Submit"
